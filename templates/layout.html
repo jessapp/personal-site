@@ -1,22 +1,33 @@
 <html>
 <head>
 	<title>Jessica Appelbaum</title>
-<style>
+<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="static/custom.css">
+</head>
 
+<style>
 body{
 	text-align: center;
 }
-h1{
-	font-family: 'Slabo';
-	font-weight: normal;
-	color: #8ac640;
-	font-size: 2.5em;
-}
-
 </style> 
 
-</head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Jessica Appelbaum</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/bio">About Me</a></li>
+      <li><a href="/video">Video</a></li>
+      <li><a href="/programming">Programming</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
 	{% block body %}{% endblock %}
 
 </body>
