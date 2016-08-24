@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <html>
 <head>
 	<title>Jessica Appelbaum</title>
@@ -11,14 +14,14 @@ body{
 }
 </style> 
 
+<!-- Navbar -->
 <body>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Jessica Appelbaum</a>
+      <li><a class="navbar-brand" href="/">Jessica Appelbaum</a></li>
     </div>
-    <ul class="nav navbar-nav">
-      <li><a href="/">Home</a></li>
+    <ul class="nav navbar-nav navbar-right">
       <li><a href="/bio">About Me</a></li>
       <li><a href="/video">Video</a></li>
       <li><a href="/programming">Programming</a></li>
@@ -29,6 +32,12 @@ body{
 
 
 	{% block body %}{% endblock %}
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>
