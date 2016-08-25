@@ -2,13 +2,24 @@
 	list-style-type: none;
 }
 
+.navbar {
+	opacity: .80;
+}
+
 .content {
-	margin: 0 200 200px;
+	margin: 25 200 200px;
 	width: 900px;
 }
 
+.pandafacts {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+
 body{
-	background-image: url(http://meormd.org/wp-content/uploads/2014/08/bokeh-background-32257-32996-hd-wallpapers.jpg)
+	background-image: url("http://meormd.org/wp-content/uploads/2014/08/bokeh-background-32257-32996-hd-wallpapers.jpg")
 }
 
 p {
@@ -16,6 +27,10 @@ p {
 }
 
 h1 {
+	color: white;
+}
+
+h2 {
 	color: white;
 }
 
@@ -28,7 +43,7 @@ h4 {
 }
 
 a:link {
-	color: yellow;
+	color:yellow;
 }
 
 a:visited {
