@@ -1,0 +1,36 @@
+.navbar-header li {
+	list-style-type: none;
+}
+
+.content {
+	margin: 0 200 200px;
+	width: 900px;
+}
+
+body{
+	background-image: url(http://meormd.org/wp-content/uploads/2014/08/bokeh-background-32257-32996-hd-wallpapers.jpg)
+}
+
+p {
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+h4 {
+	color: white;
+}
+
+a:link {
+	color: yellow;
+}
+
+a:visited {
+	color:white;
+}
